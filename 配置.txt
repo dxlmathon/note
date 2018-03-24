@@ -1,0 +1,20 @@
+0. sklearn路径
+ D:\anaconda\pkgs\scikit-learn-0.19.1-py36h53aea1b_0\Lib\site-packages\sklearn
+1. windows配置opencv249；
+ https://wenku.baidu.com/view/819d4892f242336c1fb95e93.html
+2. matconnet 先运行vl_setupnn把路径规划过去。
+3. 下镜像的网站：itellyou
+4. 找东西时可以加个pan
+5. vs上使用opencv图片路径需要使用双斜杠，不然会各种dll错误
+
+2.找工作需准备的东西
+ 1）深度学习的工程
+ 2）机器学习算法
+ 3）课题的东西
+ 4）数据结构
+ 5）c的编程
+
+3.找实习需要准备的东西
+ 1）统计学习方法啃完
+ 2）课题，重建和识别
+ 3）深度学习，实践过的东西

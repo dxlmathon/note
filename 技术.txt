@@ -1,0 +1,44 @@
+3.24
+git：
+cd 工程根目录
+git init
+git remote add origin git@github.com:dxlmathon/test.git
+git pull origin master
+
+vi .gitignore
+i
+target/
+.settings
+.classpath
+.project
+esc
+:wq
+
+git add ./*
+git commit -m "comment"
+git push -u origin master
+
+修改：
+git add .(.是表示全部，可以指定文件名)
+git commit -m "说明为什么修改"
+git push git@github.com:dxlmathon/test.git
+====================
+1 [] () . ->
+2 - (int) ++ -- * & ! ~ sizeof
+3 / * %
+4 + -
+5 << >>
+6 > >= < <= 
+7 == !=
+8 &(按位与) 9 ^(按位异或) 10 |（按位或）
+11 && 12 || 13 ?:
+14 = /= *= %= += -= <<= >>= &= ^= |=
+15 ,
+
+char < short < int < float < double  不同类型运算结果类型向右边靠齐。
+
+C++中结构体与类的区别：
+结构体中的成员访问权限不声明时候默认是公开的，而类是私有的
+
+友元函数重载时,参数列表为1,说明是1元,为2说明是2元
+成员函数重载时,参数列表为空,是一元,参数列表是1,为2元。。
