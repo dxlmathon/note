@@ -5,10 +5,9 @@
 
 
 1.pythonÐ´³öËùÓÐ¸÷ÖÖËðÊ§º¯Êý
-ÐèÒª½â¾öµÄÎÊÌâ
 1.Ê²Ã´ÊÇÈËÁ³Ê¶±ð
 1.½»²æìØ
-1¡¢vectorÓëlistµÄÇø±ð£»Ïß³ÌÓë½ø³ÌµÄÇø±ð
+1¡¢vectorÓëlistµÄÇø±ð¡¢Ïß³ÌÓë½ø³ÌµÄÇø±ð
 1.softmaxlog
 2.¼ÙÈçÓÃÒ»ÕÅÃ»ÓÐÑµÁ·¹ýµÄÈËÁ³·ÅÈëÄãµÄÊ¶±ðÏµÍ³£¬ÔõÃ´×Å£¿
 4.adaboostÊÇÏßÐÔ»¹ÊÇ·ÇÏßÐÔµÄ
@@ -21,15 +20,11 @@
 
 1.ËùÎ½µÄÈ¨ÖØË¥¼õ¾ÍÊÇ¸øÎó²îº¯Êý¼Ó³Æ³Í·£ÏîµÄÏµÊý£¬³Í·£ÏîÒ»°ãÊÇÈ¨ÖØµÄ¶þ·¶Êý£¬ÎªÁË·ÀÖ¹Ä³Ò»È¨ÖØ¹ý´óÔì³ÉµÄ¹ýÄâºÏ¡££¨¶ÔÄ³Ò»ÌØÕ÷ÌØ±ðÃô¸Ð£©
 
-1.dataAugmentation
- 1.·­×ª 2.Ðý×ªÒ»¶¨µÄ½Ç¶È 3.¶Ô±È¶È£¬±¥ºÍ¶È£¬ÁÁ¶È 4.Ëæ»úÔëÉù 
- 5.·Å´óËõÐ¡ 6.Æ«ÒÆ 7.
 1.ËùÎ½µÄÂß¼­Ë¹µÙ»Ø¹éÄ£ÐÍÊÇÖ¸£ºµ±ÏßÐÔº¯ÊýµÄÖµÔ½½Ó½üÕýÎÞÇî£¬¸ÅÂÊÖµ¾ÍÔ½½Ó½ü1£»µ±ÏßÐÔº¯ÊýµÄÖµÔ½½Ó½ü¸ºÎÞÇî£¬¸ÅÂÊÖµ¾ÍÔ½½Ó½ü0¡£
 2.ËùÎ½µÄ×î´óËÆÈ»¹À¼Æ£¬¾ÍÊÇÏÈ¼ÙÉèÄ£ÐÍ²ÎÊý£¬È»ºó¼ÆËãÊµÑé½á¹ûµÄ¸ÅÂÊÊÇ¶àÉÙ£¬¸ÅÂÊÔ½´óËù¶ÔÓ¦µÄ²ÎÊýÔ½½Ó½üÊµ¼Ê²ÎÊý¡£
 3.×î´óìØÓÚÔ­ÀíÊ±¸ÅÂÊÄ£ÐÍÑ§Ï°µÄÒ»¸ö×¼Ôò£¬×î´óìØÔ­ÀíÈÏÎª£¬Ñ§Ï°¸ÅÂÊÄ£ÐÍÊ±£¬ÔÚËùÓÐ¿ÉÄÜµÄ¸ÅÂÊÄ£ÐÍ£¨·Ö²¼£©ÖÐ£¬ìØ×î´óµÄÄ£ÐÍÊ±×îºÃµÄÄ£ÐÍ¡£
 4.Ñ§Ï°µÄÄ¿µÄÊ±´ÓËùÓÐ¿ÉÄÜµÄÄ£ÐÍÖÐÑ¡Ôñ×îÓÅÄ£ÐÍ¡£
 1.ÓÐÊ±Ö±½Óµ¼ÈëaÈ»ºóÊ¹ÓÃa.b»á³öÏÖaÖÐÃ»ÓÐbÕâ¸öÊôÐÔ£¬ÕâÊ±ÐèÒªÖ±½Óimport a.b
-2.Ê¹ÓÃscipy.io.savemat()¿ÉÒÔÉú³Ématlab¿ÉÒÔ¶ÁÐ´µÄmat¸ñÊ½ÎÄ¼þ
 3.winsound.Beep(600, 1000)
 
 1.lambdaµÄÓÃ·¨£ºÄäÃûº¯Êý
@@ -53,19 +48,6 @@ f2()
  ÎªÕûÊýÊ±£º²»Ëæ»ú
  ÎªNoneÊ±£º Ëæ»ú
 
-1.prÇúÏß
-TP£ºÕæÕýÀý£»FN£º¼Ù¸ºÀý
-FP£º¼ÙÕýÀý£»TN£ºÕæ¸ºÀý
-precision£¨²é×¼ÂÊ£©£ºTP/(TP+FP)
-recall(²éÈ«ÂÊ)£ºTP/(TP+FN)
-ËùÎ½µÄF1¾ÍÊÇprecisionºÍrecallµÄµ÷ºÍÆ½¾ù£¨Ô½¸ßÔ½ºÃÒ»°ã£©
-precision¹ØÐÄÔ¤²â³öµÄÕýÑù±¾µÄÕýÈ·ÂÊµÄÎÊÌâ£»²éÈ«ÂÊ¹ØÐÄÔ¤²â³öÕýÑù±¾µÄ±£Ö¤ÐÔ¡£ËùÎ½µÄPRÍ¼¾ÍÊÇprecision vs recall£¬recallÎªºáÖá£¬precisionÎª×ÝÖá¡£Ô½±¥ÂúÐÔÄÜÔ½ºÃ¡£Ò»°ãÊÇÕÒ¸öÆ½ºâµãBEP£¨precision=recall£©¡£ÄÇÔõÃ´µÃ³öPRÇúÏßÄØ£¬ÊÇÕâÑù×Ó×öµÄ£ºÊ×ÏÈ½«ãÐÖµÉèÎª1£¬ÔòrecallÎª0£¬precisionÎª1£»µ±ãÐÖµÎª0Ê±£¬È«²¿Ô¤²âÎªÕýÑù±¾£¬ÔòrecallÎª1£¬ precisonÒ²Îª1¡£
-
-¶øËùÎ½µÄROCÇúÏßÔò²î²»¶à£¬Ê¹ÓÃµÄÊÇ£º
-×ÝÖá£ºTPR = TP/(TP+FN),¼´recall
-ºáÖá£ºFPR = FP/(TN+FP)
-Í¨¹ýµ÷ÕûãÐÖµµÃµ½ROCÇúÏß¡£Ê×ÏÈ½«ãÐÖµÉèÎª1£¬ËùÓÐ¶¼Ô¤²âÎª·´Àý£¬ÔòrecallÎª0£¬FPRÒ²Îª0£»µ±ãÐÖµÉèÎª0£¬ÔòrecallÎª1£¬ FPRÎªÒ²Îª1¡£
-
 2.Æ«²îºÍ·½²î
 ·º»¯Îó²î¿ÉÒÔ·Ö½âÎªÆ«²î¡¢·½²îºÍÔëÉùÖ®ºÍ¡£
 Æ«²î¶ÈÁ¿ÁËÑ§Ï°Ëã·¨µÄÆÚÍûÔ¤²âºÍÕæÊÇ½á¹ûµÄÆ«Àë³Ì¶È¡£
@@ -79,12 +61,3 @@ precision¹ØÐÄÔ¤²â³öµÄÕýÑù±¾µÄÕýÈ·ÂÊµÄÎÊÌâ£»²éÈ«ÂÊ¹ØÐÄÔ¤²â³öÕýÑù±¾µÄ±£Ö¤ÐÔ¡£ËùÎ½µ
 4. ·Ö±ð¶ÔÍ¨µÀºÍÇøÓò½øÐÐ²Ù×÷£¬¼´ËùÎ½µÄdepthWise£¬ÏÈ¶ÔÃ¿¸öÍ¨µÀ½øÐÐ¾í»ý£¬Ê¹ÓÃ1*1µÄ¾í»ý¶Ô¾í»ýºóµÄÍ¨µÀ½øÐÐ²Ù×÷¡£
 5.ËùÎ½µÄdepthWise¾ÍÊÇÊ×ÏÈ¶ÔÃ¿¸öÍ¨µÀ½øÐÐ¾í»ý²Ù×÷£¬ËùÓÐÓÐÍ¨µÀµÄ¾í»ýºË²ÎÊýÒ»ÖÂ£¬È»ºóÔÙÊ¹ÓÃ1*1µÄ¾í»ýºË½«ËùÓÐÍ¨µÀ½øÐÐÇóºÍ£¬Î¬¶ÈÎªÊä³öÎ¬¶ÈµÄ´óÐ¡¡£´«ËµÖÐµÄXceptionÍøÂç¾ÍÊÇ»ùÓÚÒÔÉÏÉè¼Æ¶øÀ´¡£¿É´ó´ó¼õÉÙ²ÎÊýÁ¿¡£
 6.·Ö×é¾í»ý¶ÔÍ¨µÀ½øÐÐËæ»ú·Ö×é¡£
-
-
-Technology
-1. º¯ÊýÄÚµÄ¾Ö²¿±äÁ¿ÃûÓëº¯ÊýÍâ²¿¾Ö²¿±äÁ¿Ãû²»³åÍ»
-2. º¯Êý»á¸Ä±äÊäÈë±äÁ¿£¬Òò´ËÊ¹ÓÃÉî¸´ÖÆ½ÏÎªÎÈÍ×
-3. ÐèÒªº¯Êý¸Ä±äÈ«¾Ö±äÁ¿£¬¿ÉÊ¹ÓÃglobal¶¨Òåº¯ÊýÄÚ±äÁ¿
-5. os.path.exists()
-6. fun.__doc__(ÓÃ"""   """½øÐÐËµÃ÷)
-
