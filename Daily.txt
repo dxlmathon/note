@@ -1,8 +1,13 @@
-计划：
-1.SSD完全弄懂
-2.c++每天做
-（不完成1就不干其它的）
+arcsoft：
+PCA、Boosting、SVM、Neural Net、Regression
+Haar、Gabor、LBP、SIFT、HOG
 
+将roi pooling用于曲面深度图的缩放
+
+
+int *p[10]与int (*p)[10]等价
+fscanf()作用是从文件流中读取数据，fprintf()是将数据写入到文件
+main()函数的位置可以任意？
 
 1.python写出所有各种损失函数
 1.什么是人脸识别

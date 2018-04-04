@@ -1,19 +1,6 @@
-1. hr@focusight.net 征图（focusight）   
-2. cvte
-3. 地平线    唧唧
-4. 海康威视
-5. 虹软
+
 6.https://m.nowcoder.com/careers/sohucampus/248?type=neitui&source=nixing@sohu-inc.com 搜狐内推
 7. chengquan@sogou-inc.com 搜狗
-
-投过的：
-前程无忧
-宇视
-
-面试：
-1.周六下午两点：宇视    不收实习
-2.周五上午十点半：国电  拒了
-3.地平线（最晚周六）    唧唧
 
 地平想面试总结：
 1.论文看得少，ssd、mobilenet、densenet、squeezenet
@@ -21,3 +8,9 @@
 3.基础知识还不是信手拈来
 4.代码管理不行
 5.数据增强的意义（增加数据的多样性？）
+
+1.阿里健康：zy107420@alibaba-inc.com
+2.hr@focusight.net
+3.cvte
+4.虹软
+5.leiguodong@huawei.com
