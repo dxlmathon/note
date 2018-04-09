@@ -1,3 +1,9 @@
+1. const 指针
+2. gpu加速策略（conv）
+3. 绝对值loss的优化
+4. sift
+5. #include <algorithm> 常用函数
+
 arcsoft：
 PCA、Boosting、SVM、Neural Net、Regression
 Haar、Gabor、LBP、SIFT、HOG
